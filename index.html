@@ -2,24 +2,29 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>포스트</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Airliyel 블로그 홈</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <header>
-    <h1><a href="/">Airliyel 블로그</a></h1>
+    <h1><a href="/">Airliyel의 기술 블로그</a></h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+    </nav>
   </header>
 
   <main>
-    <article id="post-content">로딩 중...</article>
+    <section id="posts">
+      <h2>최근 글</h2>
+      <div id="post-list">로딩 중...</div>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Airliyel</p>
   </footer>
 
-  <!-- Markdown 렌더링용 marked.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="/assets/js/renderPost.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
